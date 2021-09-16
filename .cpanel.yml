@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/thedeli1/frontend.thedeliveryguy.com.bd /
+    - /bin/cp * $DEPLOYPATH
