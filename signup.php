@@ -161,13 +161,7 @@
                                     <label for="">Pickup Phone</label>
                                     <div class="input-group">
                                         <input 
-                                            type="number" 
-                                            oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" 
-                                            maxlength = "11"
-                                            class="form-control" 
-                                            name="pickup_phone" 
-                                            id="pickup_phone" 
-                                            placeholder="017XXXXXXXX"
+                                           
                                             >
                                         <div class="input-group-append" onclick="phoneAuth()" id="sign-in-button">
                                             <div class="input-group-text symbol btn btn-info"  ><span  >Send OTP</span></div>
