@@ -253,11 +253,12 @@ border-style: none;
 
 .customSearchBox{
   width: 313px !important;
+  height: 46px !important;
 }
 
 .customButtonPhone{
   width: 132px  !important;
-   height: 50px !important;
+  height: 46px !important;
   top: 0px !important;
   right: 1px !important;
 }
