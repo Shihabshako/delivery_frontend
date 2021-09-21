@@ -199,6 +199,53 @@ header .nav a:hover{
     }
 }
 
+
+
+
+/* our process */
+.op{
+    background-image: linear-gradient(to top, #F3e6e7 0%, #F3e7ea 100%);
+    height: 600px;
+    
+}
+.ic-h1{
+    font-size: 40px;
+   
+}
+.ic-h2{
+    font-size: 26px;
+    background:linear-gradient(120deg, #e0c3fc 0%, #1e2022 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform:uppercase;
+    font-weight: 700;
+    text-align:center;
+}
+.op .process{
+    width: 400px;
+ text-transform: capitalize;
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 3px 6px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2px );
+-webkit-backdrop-filter: blur( 2px );
+border-radius: 20px;
+
+}
+.op .process:hover{
+    background: linear-gradient(120deg, #f7c3fc 0%, #8efc9d 100%);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 20px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+transform: scale(1.1);
+}
+.process img{
+    width: 100px;
+    height:100px;
+    margin-top: 40px;
+}
+
 /* about section */
 .about{
     background-image: linear-gradient(to top, #fddb92 0%, #f3e7e9 100%);
