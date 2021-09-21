@@ -1,25 +1,13 @@
+let menu = document.querySelector("#menu-bar");
+let nav = document.querySelector(".nav");
 
-// navbar scrolling
+menu.onclick = () => {
+  menu.classList.toggle("fa-times");
+  nav.classList.toggle("active");
+};
 
-function smoothScroll(selfs, class_name){
-  event.preventDefault();
-  
-  var listItems = $("#top-menu a");
-  $("#top-menu a").each(function () {
-      $(this).removeClass("active");
-  });
-
-  $(selfs).addClass('active');
-  console.log(self)
-  $("html,body").animate(
-      {
-      scrollTop: $("."+class_name).offset().top,
-      },
-      "slow"
-  );
-}
-
-
+let section = document.querySelectorAll("section");
+let navLinks = document.querySelectorAll("header .nav a");
 
 window.onscroll = () => {
   menu.classList.remove("fa-times");

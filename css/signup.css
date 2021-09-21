@@ -108,7 +108,7 @@ header{
     }
     
     .card .btn-login {
-      background: rgba( 238, 157, 54, 0.95 );
+      background: #F4822a;
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 14px );
 -webkit-backdrop-filter: blur( 14px );
